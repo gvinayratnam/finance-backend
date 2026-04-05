@@ -1,1 +1,1 @@
-web: gunicorn finance_backend.wsgi
+python manage.py migrate && gunicorn finance_backend.wsgi
